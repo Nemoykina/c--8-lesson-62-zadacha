@@ -41,7 +41,7 @@ void PrintArray(int[,] array)
 
 Console.Clear();
 int len = 4;
-int[,] table = new int[len, len];
-FillArraySpiral(table, len);
+int[,] array = new int[len, len];
+FillArraySpiral(array, len);
 Console.WriteLine();
-PrintArray(table);
+PrintArray(array);
